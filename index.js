@@ -9,16 +9,14 @@ let calculator = {
   multiply: function () {
     return this.a * this.b;
   },
+  setNumbers: function() {
+    this.a = +rds.question('a: ') || 0;
+    this.b = +rds.question('b: ') || 0;
+    return 1;
+  }
 };
 
-function calculatorSetRDSValues() {
-    const ua = +rds.question('A: ');
-    const ub = +rds.question('B: ');
 
-    calculator.a = ua || 0;
-    calculator.b = ub || 0;
-}
-
-calculatorSetRDSValues();
+calculator.setNumbers();
 console.log(calculator.add());
 console.log(calculator.multiply());
