@@ -1,0 +1,24 @@
+{
+  "name": "this",
+  "version": "1.0.0",
+  "description": "��#\u0000t\u0000h\u0000i\u0000s\u0000 \u0000p\u0000r\u0000a\u0000c\u0000t\u0000i\u0000c\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mikhail-Makharia-1105o/this.git"
+  },
+  "author": "mm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikhail-Makharia-1105o/this/issues"
+  },
+  "homepage": "https://github.com/Mikhail-Makharia-1105o/this#readme",
+  "dependencies": {
+    "rds": "^0.23.1",
+    "readline-sync": "^1.4.10"
+  }
+}
